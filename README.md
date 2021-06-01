@@ -20,8 +20,7 @@ The performance of this implementation surpasses the Matlab's solution.
 
 Build the .NET Framework DLL or use the one provided (Windows only).
 
-``
-
+```
 % path to the dll (update if needed)
 dll = [pwd, '\CycleCountLib.dll'];
 
@@ -39,9 +38,9 @@ counts = double(counts);
 
 % show results
 disp(counts);
+```
 
-``
-
+---
 <sup>
   Copyright (c) 2021, Carlos Daniel Santos Souto.
   All rights reserved.
