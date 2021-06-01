@@ -16,6 +16,32 @@ The performance of this implementation surpasses the Matlab's solution.
 
 ![figure](https://user-images.githubusercontent.com/83190503/120391945-ae479600-c327-11eb-9dba-5908863c9ab2.png)
 
+## How to use in Matlab
+
+Build the .NET Framework DLL or use the one provided (Windows only).
+
+``
+
+% path to the dll (update if needed)
+dll = [pwd, '\CycleCountLib.dll'];
+
+% add the .NET assembly
+NET.addAssembly(dll);
+
+% some random stress-time history
+history = rand(1000, 1);
+
+% call .NET dll
+counts = CycleCountLib.Rainflow.Execute(history);
+
+% convert double[][] to matlab array
+counts = double(counts);
+
+% show results
+disp(counts);
+
+``
+
 <sup>
   Copyright (c) 2021, Carlos Daniel Santos Souto.
   All rights reserved.
