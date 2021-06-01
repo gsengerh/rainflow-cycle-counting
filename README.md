@@ -19,6 +19,8 @@ The performance of this implementation surpasses the Matlab's solution.
 ## How to use in Matlab
 
 Build the .NET Framework DLL or use the one provided (Windows only).
+DLL located in ``...\CycleCountLib\bin\Release\CycleCountLib.dll``.
+Usage example:
 
 ```
 % path to the dll (update if needed)
