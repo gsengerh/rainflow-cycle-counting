@@ -39,6 +39,10 @@ counts = CycleCountLib.Rainflow.Execute(history);
 counts = double(counts);
 
 % show results
+% the cycle counts are returned as a matrix:
+% - column 1 are the counts
+% - column 2 are the ranges
+% - column 3 are the mean values
 disp(counts);
 ```
 
