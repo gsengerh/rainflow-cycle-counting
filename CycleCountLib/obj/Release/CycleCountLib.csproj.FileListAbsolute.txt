@@ -1,0 +1,6 @@
+C:\Users\Carlos\Desktop\CycleCountLib\bin\Release\CycleCountLib.dll
+C:\Users\Carlos\Desktop\CycleCountLib\bin\Release\CycleCountLib.pdb
+C:\Users\Carlos\Desktop\CycleCountLib\obj\Release\CycleCountLib.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\CycleCountLib\obj\Release\CycleCountLib.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\Desktop\CycleCountLib\obj\Release\CycleCountLib.dll
+C:\Users\Carlos\Desktop\CycleCountLib\obj\Release\CycleCountLib.pdb
