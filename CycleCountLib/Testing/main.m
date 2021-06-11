@@ -44,7 +44,7 @@ for k = 1:1:length(history_size)
         csharp = double(csharp);
         
         % check results
-        if matlab(:, 1:3) ~= csharp(:, :)
+        if ~isequal(matlab(:, 1:3), csharp)
             error('Test %i of run %i failed.\n', i, k);
         else
             %fprintf('Test %i of run %i passed.\n', i, k);
