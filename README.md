@@ -14,7 +14,7 @@ The Matlab code used for testing is also included in the distribution.
 
 The performance of this implementation surpasses the Matlab's solution.
 
-![figure](https://user-images.githubusercontent.com/83190503/120391945-ae479600-c327-11eb-9dba-5908863c9ab2.png)
+![untitled](https://user-images.githubusercontent.com/83190503/121896024-c2709780-cd18-11eb-81fa-e9f3d5730297.png)
 
 ## How to use in Matlab
 
