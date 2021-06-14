@@ -5,12 +5,8 @@ clear all; close all; clc;
 dll = [pwd, '\..\bin\Release\CycleCountLib.dll'];
 NET.addAssembly(dll);
 
-% number of repetitions/tests
-n = 25;
-
-% timers
-matlab_elapsed = 0;
-csharp_elapsed = 0;
+% number of test repetitions
+n = 50;
 
 % data sizes to run
 history_size = 1e2:1e3:1e5;
@@ -23,6 +19,10 @@ y_csharp = zeros(length(history_size), 1);
 for k = 1:1:length(history_size)
     
     fprintf('Run %i of %i (data array size = %i)...\n', k, length(history_size), history_size(k));
+    
+    % timers
+    matlab_elapsed = 0;
+    csharp_elapsed = 0;
     
     % for each test
     for i = 1:1:n
