@@ -1,6 +1,6 @@
 # Rainflow Cycle Counting in C#
 
-### By: Carlos Souto - csouto@fe.up.pt
+### By: C. Souto - csouto@fe.up.pt
 
 A fast rainflow cycle counting algorithm according to
 ASTM E1049-85,
